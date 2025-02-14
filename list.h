@@ -92,7 +92,7 @@ void RemoveAll(){
 
 void RemoveOne(char *name){
 	struct node *temp = head;
-    struct node *tempPrev = temp;
+        struct node *tempPrev = temp;
 
         while(temp->next != NULL){
 			
